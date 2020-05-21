@@ -1,0 +1,19 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               Hi
+tagline:
+description:         'Backend Software Engineer'
+
+# About/contact
+author:
+  name:              Rene
+  url:               https://github.com/renaynay/
+  email:             renelubov.dev@gmail.com
+
+# Custom vars
+version:             1.0.0
