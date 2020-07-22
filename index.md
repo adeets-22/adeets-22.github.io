@@ -2,27 +2,38 @@
 layout: default
 title: About
 ---
+#I'm Aditi
 
-#### Aditi Sriram
+### I like
 
-Product
+crypto and think about an open financial system a lot 
 
-#### I like working with
+am a product person 
 
-Product
+my plants
 
-#### I enjoy learning about
+writing about biz + tech trends ESP as it relates to the south asian market
 
-Product
+### I enjoy learning about
 
-#### I have fun
+research that nava ashraf puts out 
 
-Product
+cross border payments 
 
-#### Watch me
+OSS software
 
-Speak
+### I have fun
 
-#### Talk to me
+learning how to make digital art on procreate 
 
-Links to some stuff
+techno-caving 
+
+### Portfolio and things
+
+[Product launch at SXSW 2019](https://www.youtube.com/watch?v=NhHs1lPCzK0) 
+
+[Opinion: India’s Traditionalist Ban on Crypto](https://thejuggernaut.com/article?id=7vkLiVyhWm5guuwTPcbTCl)
+
+### Talk to me
+
+[hey](https://twitter.com/adeets_22)
