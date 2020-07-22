@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-#I'm Aditi
+# I'm Aditi
 
 ### I like
 
