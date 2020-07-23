@@ -2,9 +2,8 @@
 layout: default
 title: About
 ---
-# I'm Aditi
 
-### I like
+### Hey
 
 crypto and think about an open financial system a lot 
 
