@@ -5,6 +5,8 @@ title: About
 
 # Aditi (uh-dee-tee)
 
+![aditi]()
+
 heyo. i'm product manager, with a special interest in magic internet money. for fun, i like to write about biz + tech trends and take care of my plants.
 
 i enjoy learning about any research that [nava ashraf](https://ashrafnava.wordpress.com/) puts out, the **superior** (imo) south asian fintech market, OSS software, and privacy tech.
