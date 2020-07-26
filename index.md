@@ -3,36 +3,12 @@ layout: default
 title: About
 ---
 
-### Hey
+# Aditi (uh-dee-tee)
 
-crypto and think about an open financial system a lot 
+heyo. i'm product manager, with a special interest in magic internet money. for fun, i like to write about biz + tech trends and tend to my plants.
 
-am a product person 
+i enjoy learning about any research that [nava ashraf](https://ashrafnava.wordpress.com/) puts out, the **superior** (imo) south asian fintech market, OSS software, and skin care.
 
-my plants
+on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, and reading my reddit subs at my favorite cafes.
 
-writing about biz + tech trends ESP as it relates to the south asian market
-
-### I enjoy learning about
-
-research that nava ashraf puts out 
-
-cross border payments 
-
-OSS software
-
-### I have fun
-
-learning how to make digital art on procreate 
-
-techno-caving 
-
-### Portfolio and things
-
-[Product launch at SXSW 2019](https://www.youtube.com/watch?v=NhHs1lPCzK0) 
-
-[Opinion: India’s Traditionalist Ban on Crypto](https://thejuggernaut.com/article?id=7vkLiVyhWm5guuwTPcbTCl)
-
-### Talk to me
-
-[hey](https://twitter.com/adeets_22)
+[check out](https://www.youtube.com/watch?v=NhHs1lPCzK0https://www.youtube.com/watch?v=NhHs1lPCzK0) some of my happy users at SXSW 2019 or [read](https://thejuggernaut.com/article?id=7vkLiVyhWm5guuwTPcbTCl) my take on India's *former* traditionalist ban on crypto if you're interested. [DM](https://twitter.com/adeets_22) me book recommendations (nothing Malcolm Gladwell) or ask me to write for you.
