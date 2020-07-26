@@ -5,7 +5,7 @@ title: About
 
 # Aditi (uh-dee-tee)
 
-![aditi]()
+![aditi](/adit.jpg)
 
 heyo. i'm product manager, with a special interest in magic internet money. for fun, i like to write about biz + tech trends and take care of my plants.
 
