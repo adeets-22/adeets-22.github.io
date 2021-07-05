@@ -7,9 +7,9 @@ title: About
 
 ![aditi](/adit.jpg)
 
-heyo. i'm product manager, building in the world of magic internet money. for fun, i like to take care of my plants, techno cave, and write (sometimes).
+heyo. i'm product manager, building in the world of magic internet money. for fun, i like to take care of my plants, collect not-so-fine art, and write (sometimes).
 
-i enjoy learning about any research that [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/)put out, the south asian fintech market, OSS software, and privacy tech.
+i enjoy learning about any research that [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/) puts out, OSS software, and privacy tech.
 
 on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, and reading my reddit subs at my [favorite cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967).
 
