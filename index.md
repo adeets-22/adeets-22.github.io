@@ -7,7 +7,7 @@ title: About
 
 ![aditi](/adit.jpg)
 
-heyo. i'm a product manager, building in the world of magic internet money. for fun, i like to take care of my plants, build [Xendia Labs](https://www.xendialabs.com/), and write. 
+heyo. i'm a product manager, building in the world of magic internet money. for fun, i like to take care of my plants, bring cryptotechnology to the creative world through [Xendia Labs](https://www.xendialabs.com/), and write. 
 
 i enjoy learning about any research that [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/) puts out, OSS software, and privacy tech.
 
