@@ -15,7 +15,7 @@ on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, a
 
 [check out](https://www.youtube.com/watch?v=NhHs1lPCzK0https://www.youtube.com/watch?v=NhHs1lPCzK0) a demo I did at SXSW 2019 on abstracting the UX layer of crypto or [DM](https://twitter.com/adeets_22) me book recommendations (nothing Malcolm Gladwell pls) 🗣
 
-other shtuff i've written: 
+shtuff i've written: 
 - [C.R.E.A.M](https://buttercup4pres.medium.com/c-r-e-a-m-e39e49a4a9fa) 
 - [Hype for Radicle](https://buttercup4pres.medium.com/hype-for-radicle-957cfd03aaf8?source=---------0----------------------------) 
 - [Cash Memory](https://onjuno.com/blog/what-is-cash-memory-and-why-fintechs-need-to-take-notice) 
