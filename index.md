@@ -23,5 +23,6 @@ shtuff i've written:
 - [India's Traditionalist Crypto Ban](https://thejuggernaut.com/article?id=7vkLiVyhWm5guuwTPcbTCl) 
 
 speakin shtuff: 
+- [WGMI Moments, Identity, and Onboarding Talent into web3](https://www.youtube.com/watch?v=NDEDHj9zdSw) 
 - [Converting web2 talent to web3](https://vimeo.com/showcase/8950429/video/637517315) 
 - [Education in web3](https://vimeo.com/showcase/8950429/video/637513467) 
