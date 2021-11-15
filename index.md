@@ -24,3 +24,5 @@ shtuff i've written:
 
 speakin shtuff: 
 - [WGMI Moments, Identity, and Onboarding Talent into web3](https://www.youtube.com/watch?v=NDEDHj9zdSw) 
+- [Converting web2 talent to web3 @ LisCon 2021](https://vimeo.com/showcase/8950429/video/637517315) 
+- [Onboarding + Education in web3 @ LisCon 2021](https://vimeo.com/showcase/8950429/video/637513467) 
