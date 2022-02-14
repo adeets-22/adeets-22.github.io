@@ -14,6 +14,7 @@ on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, a
 [check out](https://www.youtube.com/watch?v=NhHs1lPCzK0https://www.youtube.com/watch?v=NhHs1lPCzK0) a demo I did at SXSW 2019 abstracting the UX layer of crypto or [DM](https://twitter.com/adeets_22) me book recommendations (nothing Malcolm Gladwell pls) 🗣
 
 ✍🏻:  
+- [The Ethereum Off-Chain Data Availability Landscape](https://blog.celestia.org/ethereum-off-chain-data-availability-landscape/) 
 - [Quantum Gravity Bridge: Secure Off-Chain Data Availability for Ethereum L2s](https://blog.celestia.org/celestiums/) 
 - [Ethereum Rollups: Call Data Pricing Analysis](https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141) 
 - [C.R.E.A.M](https://buttercup4pres.medium.com/c-r-e-a-m-e39e49a4a9fa) 
