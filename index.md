@@ -27,3 +27,6 @@ on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, a
 - [Onboarding + Education in web3 @ LisCon 2021](https://vimeo.com/showcase/8950429/video/637513467)
 - [WGMI Moments, Identity, and Onboarding Talent into web3](https://www.youtube.com/watch?v=NDEDHj9zdSw)
 - [SXSW 2019: Eth Universal Logins](https://www.youtube.com/watch?v=NhHs1lPCzK0https://www.youtube.com/watch?v=NhHs1lPCzK0) 
+
+💸 Investments: 
+- [Ceramic Network](https://ceramic.network/), [Shipyard.xyz](https://www.shipyard.xyz/), [Rabbithole](https://rabbithole.gg/), [Disco](https://www.disco.xyz/), [Appreciate](https://appreciate.it/) 
