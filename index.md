@@ -24,6 +24,7 @@ on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, a
 - [India's Traditionalist Crypto Ban](https://thejuggernaut.com/article?id=7vkLiVyhWm5guuwTPcbTCl) 
 
 🎙: 
+- [The Power of Forking](https://www.othersidepod.xyz/episode/38) 
 - [Breaking Down Celestia, the First Modular Blockchain Network @ DAOn the Rabbithole](https://open.spotify.com/episode/3tr56vdAPMhEenDqqUguQI?si=8c96aa7062584681) 
 - [Rollup Dev Experience @ EthDenver 2022](https://www.youtube.com/watch?v=Tgk7eXUCgYk)  
 - [Converting web2 talent to web3 @ LisCon 2021](https://vimeo.com/showcase/8950429/video/637517315)
