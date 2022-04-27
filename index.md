@@ -9,7 +9,7 @@ title: About
 
 heyo. i'm aditi. i enjoy building in the world of magic internet money. for fun, i like to take care of my plants, enjoy any research that [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/) puts out, learning about OSS software, and privacy tech. 
 
-currently, im heading up strategy at [Celestia](https://celestia.org/), the first modular blockchain network. in my free time, i also scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). in the past, i've held product roles at [ConsenSys](https://consensys.net/), [The Graph](https://thegraph.com/en/), and in fintech. 
+currently, im heading up strategy at [Celestia](https://celestia.org/), the first modular blockchain network. in my free time, i scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). in the past, i've held product roles at [ConsenSys](https://consensys.net/), [The Graph](https://thegraph.com/en/), and in fintech. 
 
 on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, and reading my favorite reddit subs (r/tooafraidtoask, r/plants, r/creepyencounters, r/randonauts) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967).
 
