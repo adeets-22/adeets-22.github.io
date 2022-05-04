@@ -5,7 +5,8 @@ title: About
 
 # Aditi (uh-dee-tee)
 
-![aditi](/adit.jpg)
+![aditi](/Fiery Buttercup.jpg)
+
 
 heyo. i'm aditi. i enjoy building in the world of magic internet money. for fun, i like to take care of my plants, enjoy any research that [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/) puts out, learning about OSS software, and privacy tech. 
 
