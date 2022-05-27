@@ -13,7 +13,7 @@ currently, im heading up strategy at [Celestia](https://celestia.org/), the firs
 
 on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, and reading my favorite reddit subs (r/tooafraidtoask, r/plants, r/creepyencounters, r/randonauts) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967).
 
-[DM](https://twitter.com/adeets_22) me if you wanna chat 
+[DM](https://twitter.com/adeets_22) me if you wanna chat. please do not contact me on linkedin. 
 
 ✍🏻:  
 - [The Ethereum Off-Chain Data Availability Landscape](https://blog.celestia.org/ethereum-off-chain-data-availability-landscape/) 
