@@ -37,4 +37,4 @@ on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, a
 - [Ceramic Network](https://ceramic.network/), [Shipyard.xyz](https://www.shipyard.xyz/), [Rabbithole](https://rabbithole.gg/), [Disco](https://www.disco.xyz/), [Appreciate](https://appreciate.it/) 
 
 👩🏻‍🎨 NFTs: 
-- https://gallery.so/adeets_22
+- [My gallery](https://gallery.so/adeets_22)
