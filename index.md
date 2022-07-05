@@ -16,6 +16,7 @@ on the weekends, you can find me techno-caving in brooklyn, hating on the MTA, a
 [DM](https://twitter.com/adeets_22) me if you wanna chat. please do not contact me on linkedin. 
 
 ✍🏻:  
+- [Optimism with Celestia for Data Availability](https://gov.optimism.io/t/draft-gf-phase-1-proposal-optimism-with-celestia-for-data-availability/2881)
 - [The Ethereum Off-Chain Data Availability Landscape](https://blog.celestia.org/ethereum-off-chain-data-availability-landscape/) 
 - [Quantum Gravity Bridge: Secure Off-Chain Data Availability for Ethereum L2s](https://blog.celestia.org/celestiums/) 
 - [Ethereum Rollups: Call Data Pricing Analysis](https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141) 
