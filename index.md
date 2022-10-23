@@ -7,7 +7,7 @@ title: About
 
 ![aditi](/adit.jpg)
 
-heyo. i'm aditi. i enjoy building in the world of internet money. for fun, i like to take care of my plants, enjoy any research that [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/) puts out, learning about modular blockchains, and privacy tech. 
+heyo. welcome to my corner of the internet. i'm aditi. i enjoy building in the world of internet money. for fun, i like to take care of my plants, enjoy any research that [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/) puts out, learning about modular blockchains, and privacy tech. 
 
 in my free time, i scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). in the past, i've held roles at [Celestia](https://celestia.org/), [ConsenSys](https://consensys.net/), [The Graph](https://thegraph.com/en/), and in fintech. 
 
