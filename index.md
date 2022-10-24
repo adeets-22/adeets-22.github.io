@@ -15,7 +15,7 @@ in my free time, i scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto
 
 in the past, i've held roles at [Celestia](https://celestia.org/), [ConsenSys](https://consensys.net/), [The Graph](https://thegraph.com/en/), and in fintech. on the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/plants, r/creepyencounters, r/randonauts) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967).
 
-[DM](https://twitter.com/adeets_22) me if you wanna chat or check out my [mirror](https://mirror.xyz/adeets.eth) for my writing. 
+[DM](https://twitter.com/adeets_22) me if you wanna chat or check out my [Mirror](https://mirror.xyz/adeets.eth) for my writing. 
 
 ✍🏻 Past Research:  
 - [Optimism with Celestia for Data Availability](https://gov.optimism.io/t/draft-gf-phase-1-proposal-optimism-with-celestia-for-data-availability/2881)
