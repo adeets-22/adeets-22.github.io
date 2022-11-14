@@ -11,7 +11,7 @@ hi! welcome to my corner of the internet. i'm aditi.
 
 i enjoy building in the world of internet money. for fun, i like to take care of my plants, read any research by [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/), and think about political economics. 
 
-i'm currently working on [Capsule](https://usecapsule.com/). in my free time, i scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
+i'm currently working on a project in stealth. in my free time, i scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
 
 in the past, i've held roles at [Celestia](https://celestia.org/), [ConsenSys](https://consensys.net/), [The Graph](https://thegraph.com/en/), and in fintech. on the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/plants, r/creepyencounters, r/randonauts) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967).
 
