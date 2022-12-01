@@ -9,7 +9,7 @@ title: About
 
 hi! welcome to my corner of the internet. i'm aditi. 
 
-i enjoy building in the world of internet money (since 2017!). 
+i enjoy building in the world of internet money – and have been since 2017. 
 
 for fun, i like to take care of my plants, read any research by [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/), and think about political economics. 
 
@@ -19,7 +19,7 @@ in the past, i've held roles at [Celestia](https://celestia.org/), [ConsenSys](h
 
 [DM](https://twitter.com/adeets_22) me if you wanna chat or check out my [Mirror](https://mirror.xyz/adeets.eth) for my writing. 
 
-✍🏻 Past Research:  
+✍🏻 Writing I'm Proud Of:  
 - [Optimism with Celestia for Data Availability](https://gov.optimism.io/t/draft-gf-phase-1-proposal-optimism-with-celestia-for-data-availability/2881)
 - [The Ethereum Off-Chain Data Availability Landscape](https://blog.celestia.org/ethereum-off-chain-data-availability-landscape/), referenced in [ Cryptoeconomic Security for Data Availability Committees](https://arxiv.org/abs/2208.02999)  
 - [Quantum Gravity Bridge: Secure Off-Chain Data Availability for Ethereum L2s](https://blog.celestia.org/celestiums/) 
