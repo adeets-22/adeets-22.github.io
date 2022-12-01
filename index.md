@@ -9,7 +9,9 @@ title: About
 
 hi! welcome to my corner of the internet. i'm aditi. 
 
-i enjoy building in the world of internet money. for fun, i like to take care of my plants, read any research by [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/), and think about political economics. 
+i enjoy building in the world of internet money (since 2017!). 
+
+for fun, i like to take care of my plants, read any research by [nava ashraf](https://ashrafnava.wordpress.com/) or [nadia eghbal](https://nadiaeghbal.com/oss/), and think about political economics. 
 
 i'm currently working on a project in stealth. in my free time, i scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
 
