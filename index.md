@@ -7,15 +7,13 @@ title: About
 
 ![aditi](/adit.jpg)
 
-hi! welcome to my corner of the internet. i'm aditi. 
+Hi! Welcome to my corner of the internet. I'm Aditi. 
 
-i enjoy building in the world of internet money – and have been since 2017. 
+I've been building in crypto since 2017. I'm currently working on a project in stealth. In my free time, I scout for Bain Cap Crypto [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
 
-i'm currently working on a project in stealth. in my free time, i scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
+In the past, I've held roles at [Celestia](https://celestia.org/), [ConsenSys](https://consensys.net/), and [The Graph](https://thegraph.com/en/). On the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/NYCinfluencersnark, r/randonauts) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967). Other interests include political economics, the South Asian diaspora, and biophilic art. 
 
-in the past, i've held roles at [Celestia](https://celestia.org/), [ConsenSys](https://consensys.net/), [The Graph](https://thegraph.com/en/), and in fintech. on the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/NYCinfluencersnark, r/randonauts) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967). Other interests include political economics, the south asian diaspora, and biophilic art. 
-
-[DM](https://twitter.com/adeets_22) me if you wanna chat or check out my [Mirror](https://mirror.xyz/adeets.eth) for my writing. 
+[DM](https://twitter.com/adeets_22) me if you want to chat or check out my [Mirror](https://mirror.xyz/adeets.eth) for my writing. 
 
 ✍🏻 Writing I'm Proud Of:  
 - [Optimism with Celestia for Data Availability](https://gov.optimism.io/t/draft-gf-phase-1-proposal-optimism-with-celestia-for-data-availability/2881)
