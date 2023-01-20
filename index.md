@@ -34,4 +34,4 @@ Shoot me an email at <contact@aditi.is> if you want to chat or check out my [Mir
 - [SXSW 2019: Eth Universal Logins](https://www.youtube.com/watch?v=NhHs1lPCzK0https://www.youtube.com/watch?v=NhHs1lPCzK0) 
 
 💸 Investments: 
-- [Ceramic Network](https://ceramic.network/), [0xMacro](https://0xmacro.com/), [Rabbithole](https://rabbithole.gg/), [Disco](https://www.disco.xyz/), [JokeDAO](https://twitter.com/jokedao_) 
+- [Ceramic Network](https://ceramic.network/), [0xMacro](https://0xmacro.com/), [Rabbithole](https://rabbithole.gg/), [Disco](https://www.disco.xyz/)
