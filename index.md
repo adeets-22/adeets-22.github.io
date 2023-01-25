@@ -21,7 +21,7 @@ Shoot me an email at <contact@aditi.is> if you want to chat or check out my [Mir
 - [Quantum Gravity Bridge: Secure Off-Chain Data Availability for Ethereum L2s](https://blog.celestia.org/celestiums/) 
 - [Ethereum Rollups: Call Data Pricing Analysis](https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141) 
 - [Hype for Radicle](https://buttercup4pres.medium.com/hype-for-radicle-957cfd03aaf8?source=---------0----------------------------) 
-- [India's Traditionalist Crypto Ban](https://thejuggernaut.com/article?id=7vkLiVyhWm5guuwTPcbTCl) 
+- [India's Traditionalist Crypto Ban](https://www.thejuggernaut.com/crypto-india)
 
 🎙 Speaking Engagements: 
 - [The Modular Summit @ Devconnect 2022](https://www.youtube.com/watch?v=35_rr8Vf-4k) 
