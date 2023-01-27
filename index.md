@@ -19,8 +19,7 @@ Shoot me an email at <contact@aditi.is> if you want to chat or check out my [Mir
 - [Optimism with Celestia for Data Availability](https://gov.optimism.io/t/draft-gf-phase-1-proposal-optimism-with-celestia-for-data-availability/2881)
 - [The Ethereum Off-Chain Data Availability Landscape](https://blog.celestia.org/ethereum-off-chain-data-availability-landscape/), referenced in [ Cryptoeconomic Security for Data Availability Committees](https://arxiv.org/abs/2208.02999)  
 - [Quantum Gravity Bridge: Secure Off-Chain Data Availability for Ethereum L2s](https://blog.celestia.org/celestiums/) 
-- [Ethereum Rollups: Call Data Pricing Analysis](https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141) 
-- [Hype for Radicle](https://buttercup4pres.medium.com/hype-for-radicle-957cfd03aaf8?source=---------0----------------------------) 
+- [Ethereum Rollups: Call Data Pricing Analysis](https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141)
 - [India's Traditionalist Crypto Ban](https://www.thejuggernaut.com/crypto-india)
 
 🎙 Speaking Engagements: 
