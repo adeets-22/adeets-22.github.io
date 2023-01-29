@@ -31,6 +31,3 @@ Shoot me an email at <contact@aditi.is> if you want to chat or check out my [Mir
 - [Onboarding + Education in web3 @ LisCon 2021](https://vimeo.com/showcase/8950429/video/637513467)
 - [WGMI Moments, Identity, and Onboarding Talent into web3](https://www.youtube.com/watch?v=NDEDHj9zdSw)
 - [SXSW 2019: Eth Universal Logins](https://www.youtube.com/watch?v=NhHs1lPCzK0https://www.youtube.com/watch?v=NhHs1lPCzK0) 
-
-💸 Investments: 
-- [Ceramic Network](https://ceramic.network/), [0xMacro](https://0xmacro.com/), [Rabbithole](https://rabbithole.gg/), [Disco](https://www.disco.xyz/)
