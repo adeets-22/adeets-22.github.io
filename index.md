@@ -9,7 +9,7 @@ title: About
 
 Hi! Welcome to my corner of the internet. I'm Aditi. 
 
-I've been building in crypto since 2017. I'm currently working on a project in stealth. In my free time, I scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
+I've been building in crypto since 2017. I'm currently working on [Capsule](https://usecapsule.com/). In my free time, I scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
 
 In the past, I've held roles at [Celestia](https://celestia.org/), [ConsenSys](https://consensys.net/), and [The Graph](https://thegraph.com/en/). On the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/NYCinfluencersnark, r/randonauts, r/coolguides) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967). Other interests include political economics, the South Asian diaspora, and biophilic art. 
 
