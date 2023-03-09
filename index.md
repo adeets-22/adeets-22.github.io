@@ -13,7 +13,7 @@ I've been building in crypto since 2017. I'm currently working on [Capsule](http
 
 In the past, I've held roles at [Celestia](https://celestia.org/), [ConsenSys](https://consensys.net/), and [The Graph](https://thegraph.com/en/). On the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/NYCinfluencersnark, r/randonauts, r/coolguides) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967). Other interests include political economics, the South Asian diaspora, and biophilic art. 
 
-Shoot me an email at <contact@aditi.is> if you want to chat or check out my [Mirror](https://mirror.xyz/adeets.eth) for my writing. 
+Shoot me an email at <contact@aditi.is> or [DM me on Twitter](https://twitter.com/adeets_22) if you want to chat or check out my [Mirror](https://mirror.xyz/adeets.eth) for my writing. 
 
 ✍🏻 Writing I'm Proud Of:  
 - [Optimism with Celestia for Data Availability](https://gov.optimism.io/t/draft-gf-phase-1-proposal-optimism-with-celestia-for-data-availability/2881)
