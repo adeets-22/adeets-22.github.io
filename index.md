@@ -27,7 +27,7 @@ Shoot me an email at <contact@aditi.is> or [DM me on Twitter](https://twitter.co
 - [India's Traditionalist Crypto Ban](https://www.thejuggernaut.com/crypto-india)
 
 🎙 Speaking Engagements: 
-- [Modular Summit @ EthCC 2023](https://www.youtube.com/live/nNGVz-FRjKY?feature=share&t=7870)
+- [Modular Summit @ EthCC 2023](https://www.youtube.com/watch?v=2x9zbbxMhyk)
 - [Modular Summit @ Devconnect 2022](https://www.youtube.com/watch?v=35_rr8Vf-4k) 
 - [The Power of Forking @ On the Other Side](https://www.othersidepod.xyz/episode/38) 
 - [Breaking Down Celestia, the First Modular Blockchain Network @ DAOn the Rabbithole](https://open.spotify.com/episode/3tr56vdAPMhEenDqqUguQI?si=8c96aa7062584681) 
