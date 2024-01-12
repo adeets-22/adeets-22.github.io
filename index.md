@@ -9,12 +9,12 @@ title: About
 
 Hi! Welcome to my corner of the internet. I'm Aditi. 
 
-I'm currently working on [Capsule](https://usecapsule.com/). In my free time, I scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
+I'm currently on the founding team of [Capsule](https://usecapsule.com/), focusing on GTM and business development. In my free time, I scout for [Bain Cap Crypto](https://twitter.com/BainCapCrypto). 
 
-My journey into crypto started in product at [ConsenSys](https://consensys.net/) in 2017, where I worked on the first iteration of [Universal Logins](https://www.youtube.com/watch?v=TztR_7IehjU). Since then, I've held roles at [The Graph](https://thegraph.com/en/) and was most recently at [Celestia](https://celestia.org/) where I was the Business Lead, focusing on the broader adoption of [modular blockchains](https://celestia.org/learn/first-principles/modular-blockchains-and-first-principles/). 
+My journey into crypto started in product at [ConsenSys](https://consensys.net/) in 2017, where I worked on the first iteration of [Universal Logins](https://www.youtube.com/watch?v=TztR_7IehjU), a UX standard developed at the Ethereum Foundation. Since then, I've held roles at [The Graph](https://thegraph.com/en/) and was most recently at [Celestia](https://celestia.org/) where I was the Business Lead, focusing on the broader adoption of [modular blockchains](https://celestia.org/learn/first-principles/modular-blockchains-and-first-principles/). 
 
 
-On the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/NYCinfluencersnark, r/randonauts, r/coolguides) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967). Other interests include political economics, AI-generated science fiction, and biophilic art. 
+On the weekends, you can find me lurking in my favorite reddit subs (r/tooafraidtoask, r/NYCinfluencersnark, r/randonauts, r/coolguides) at my [go-to cafes](https://www.notion.so/cafe-workspots-80b6b55555524fe88185d20806e30967). Other interests include political economics, AI-generated science fiction, and music production.
 
 Shoot me an email at <contact@aditi.is> or [DM me on Twitter](https://twitter.com/adeets_22) if you want to chat. 
 
