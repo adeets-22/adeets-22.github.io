@@ -27,6 +27,7 @@ Shoot me an email at <contact@aditi.is> or [DM me on Twitter](https://twitter.co
 - [India's Traditionalist Crypto Ban](https://www.thejuggernaut.com/crypto-india)
 
 🎙 Speaking Engagements: 
+- [Wallets & Building Capsule @ Buidl Guidl Pod](https://www.youtube.com/watch?v=ovywPvZXj0Y)
 - [Modular Summit @ EthCC 2023](https://www.youtube.com/watch?v=2x9zbbxMhyk)
 - [Modular Summit @ Devconnect 2022](https://www.youtube.com/watch?v=35_rr8Vf-4k) 
 - [The Power of Forking @ On the Other Side](https://www.othersidepod.xyz/episode/38) 
