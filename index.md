@@ -9,7 +9,7 @@ title: About
 
 Hi! Welcome to my corner of the internet. I'm Aditi. 
 
-I'm currently the Head of Business + Operations at [Capsule](https://usecapsule.com/). 
+I'm currently the Head of Business + Operations at [Para.](https://www.getpara.com/)
 
 My journey into crypto started in product at [ConsenSys](https://consensys.net/) in 2017, where I worked on the first iteration of [Universal Logins](https://www.youtube.com/watch?v=TztR_7IehjU), a UX standard developed at the Ethereum Foundation. Since then, I've held roles at [The Graph](https://thegraph.com/en/) and was most recently at [Celestia](https://celestia.org/) where I was the Business Lead, focusing on the broader adoption of [modular blockchains](https://celestia.org/learn/first-principles/modular-blockchains-and-first-principles/). 
 
