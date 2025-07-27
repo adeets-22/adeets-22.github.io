@@ -51,7 +51,7 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: rgb( 211, 243, 245);
+  background: rgb(211, 243, 245);
   background: radial-gradient(circle, rgb(211, 243, 245) 40%, rgb(180, 255, 200) 100%);
 }
 @media (min-width: 38em) {
