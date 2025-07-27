@@ -5,7 +5,7 @@ title: About
 
 # Aditi (uh-dee-tee)
 
-![aditi](/adit.jpg)
+![aditi](/ChatGPT Image Jul 26, 2025, 06_10_12 PM.png)
 
 Hi! Welcome to my corner of the internet. I'm Aditi. 
 
