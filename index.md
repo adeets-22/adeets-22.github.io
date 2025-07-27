@@ -20,7 +20,6 @@ Shoot me an email at <contact@aditi.is> or [DM me on Twitter](https://twitter.co
 ✍🏻 Writing I'm Proud Of:  
 - [How to Compare Embedded Wallets](https://blog.getpara.com/embedded-wallet-comparison/) 
 - [What is MPC and Why Should I Care?](https://blog.getpara.com/what-is-mpc/)
-- [My Mirror](https://mirror.xyz/adeets.eth)
 - [Optimism with Celestia for Data Availability](https://gov.optimism.io/t/draft-gf-phase-1-proposal-optimism-with-celestia-for-data-availability/2881)
 - [The Ethereum Off-Chain Data Availability Landscape](https://blog.celestia.org/ethereum-off-chain-data-availability-landscape/), referenced in [ Cryptoeconomic Security for Data Availability Committees](https://arxiv.org/abs/2208.02999)  
 - [Quantum Gravity Bridge: Secure Off-Chain Data Availability for Ethereum L2s](https://blog.celestia.org/celestiums/) 
