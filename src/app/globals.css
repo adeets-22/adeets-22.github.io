@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #F6ECE1;
+  --foreground: #333333;
+  --accent: #666666;
+  --border: #333333;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+a {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.bordered-section {
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+}
+
+.dashed-border {
+  border-style: dashed;
+}
+
+img.grayscale-hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+img.grayscale-hover:hover {
+  filter: grayscale(0%);
+}
