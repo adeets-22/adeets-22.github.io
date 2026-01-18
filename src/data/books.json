@@ -1,0 +1,330 @@
+{
+  "currently-reading": [
+    {
+      "title": "Being Mortal: Medicine and What Matters in the End",
+      "author": "Atul Gawande",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620596742l/23290548._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7777898083?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "AI Superpowers: China, Silicon Valley, and the New World Order",
+      "author": "Kai-Fu Lee",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522379445l/39681794._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7695700436?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance",
+      "author": "W. Timothy Gallwey",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750018611l/905._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7307345641?utm_medium=api&utm_source=rss"
+    }
+  ],
+  "read": [
+    {
+      "title": "The World For Sale: Money, Power, and the Traders Who Barter the Earth's Resources",
+      "author": "Javier Blas",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614624700l/57267938._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7819027031?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Material World: The Six Raw Materials That Shape Modern Civilization",
+      "author": "Ed Conway",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684817027l/112974899.jpg",
+      "link": "https://www.goodreads.com/review/show/7777917290?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Boom: Bubbles and the End of Stagnation",
+      "author": "Byrne Hobart",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728481442l/216417281._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7115057671?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Genius Zone: The Breakthrough Process to End Negative Thinking and Live in True Creativity",
+      "author": "Gay Hendricks",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624953766l/58451931._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721328716?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Antimemetics: Why Some Ideas Resist Spreading",
+      "author": "Nadia Asparouhova",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743012556l/230403458._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/7783764672?utm_medium=api&utm_source=rss"
+    },
+            {
+      "title": "High Growth Handbook: Scaling Startups From 10 to 10,000 People",
+      "author": "Elad Gil",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529140496l/40538194._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634741672?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Virtual Economies: Design and Analysis (Information Policy)",
+      "author": "Vili  Lehdonvirta",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600727340l/55421853._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634739859?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "By Stephen King - Stephen King 1: Pet Semetary, Carrie, Nightshift (Boxed Set) (1905-06-28) [Paperback]",
+      "author": "Stephen  King",
+      "imageUrl": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "link": "https://www.goodreads.com/review/show/5931720835?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Badass Habits: Cultivate the Awareness, Boundaries, and Daily Upgrades You Need to Make Them Stick",
+      "author": "Jen Sincero",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585179799l/52439904.jpg",
+      "link": "https://www.goodreads.com/review/show/6927482386?utm_medium=api&utm_source=rss"
+    },
+        {
+      "title": "Good Energy: The Surprising Connection Between Metabolism and Limitless Health",
+      "author": "Casey Means",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715151232l/196848596._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7233041065?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Fourth Turning: An American Prophecy—What the Cycles of History Tell Us About America's Next Rendezvous with Destiny",
+      "author": "William Strauss",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685651696l/670089._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/6313700682?utm_medium=api&utm_source=rss"
+    },
+        {
+      "title": "Super Attractor: Methods for Manifesting a Life beyond Your Wildest Dreams",
+      "author": "Gabrielle Bernstein",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557836615l/43669740._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/6924390125?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Mahabharata: A Shortened Modern Prose Version of the Indian Epic",
+      "author": "R.K. Narayan",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391108802l/20657408.jpg",
+      "link": "https://www.goodreads.com/review/show/6814383571?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
+      "author": "J.D. Vance",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463569814l/27161156.jpg",
+      "link": "https://www.goodreads.com/review/show/6752104054?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Origins of Human Communication",
+      "author": "Michael Tomasello",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347614804l/5864391.jpg",
+      "link": "https://www.goodreads.com/review/show/6443679343?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664458703l/32620332._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/6443672260?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions",
+      "author": "Chimamanda Ngozi Adichie",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743878805l/33585392._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5656446801?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Blue Zones: Lessons for Living Longer From the People Who've Lived the Longest",
+      "author": "Dan Buettner",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320442392l/2213117.jpg",
+      "link": "https://www.goodreads.com/review/show/6236938837?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Get Out of Your Mind and Into Your Life: The New Acceptance and Commitment Therapy (A New Harbinger Self-Help Workbook)",
+      "author": "Steven C. Hayes",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344908247l/25348.jpg",
+      "link": "https://www.goodreads.com/review/show/6173821621?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Extremely Online: The Untold Story of Fame, Influence, and Power on the Internet",
+      "author": "Taylor Lorenz",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1692794592l/101160112._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5916950963?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Artist's Way: A Spiritual Path to Higher Creativity",
+      "author": "Julia Cameron",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597242538l/54898440._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634739740?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Outlive: The Science & Art of Longevity",
+      "author": "Peter Attia",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700067079l/61153739._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721328134?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "On Writing Well: The Classic Guide to Writing Nonfiction",
+      "author": "William Zinsser",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352891165l/16149296.jpg",
+      "link": "https://www.goodreads.com/review/show/5916953444?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Going Infinite: The Rise and Fall of a New Tycoon",
+      "author": "Michael   Lewis",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684247487l/149105520.jpg",
+      "link": "https://www.goodreads.com/review/show/5896921000?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Master of Change: How to Excel When Everything Is Changing – Including You",
+      "author": "Brad Stulberg",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678751375l/75289864.jpg",
+      "link": "https://www.goodreads.com/review/show/5895770291?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Anatomy of the Spirit: The Seven Stages of Power and Healing",
+      "author": "Caroline Myss",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576439734l/832543.jpg",
+      "link": "https://www.goodreads.com/review/show/5634741876?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Inner Engineering: A Yogi's Guide to Joy",
+      "author": "Sadhguru",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484851488l/29513878._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721343607?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Creative Curve: How to Develop the Right Idea at the Right Time",
+      "author": "Allen Gannett",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513205763l/37509591._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721344319?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Dataclysm: Who We Are (When We Think No One's Looking)",
+      "author": "Christian Rudder",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407763834l/21480734.jpg",
+      "link": "https://www.goodreads.com/review/show/5721343993?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "author": "James Clear",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988385l/40121378.jpg",
+      "link": "https://www.goodreads.com/review/show/5721344955?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Good Boss, Bad Boss: How to Be the Best...And Learn from the Worst",
+      "author": "Robert I. Sutton",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344270033l/7996747.jpg",
+      "link": "https://www.goodreads.com/review/show/5721345836?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+      "author": "Mark Manson",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761302l/28257707.jpg",
+      "link": "https://www.goodreads.com/review/show/5721343284?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life",
+      "author": "Jen Sincero",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351539051l/15843166._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721342963?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Hooked: How to Build Habit-Forming Products",
+      "author": "Nir   Eyal",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407112405l/22668729.jpg",
+      "link": "https://www.goodreads.com/review/show/5634742735?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Judgement and In the Penal Colony",
+      "author": "Franz Kafka",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1749372176l/981550._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721340759?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Before the Law (The Metamorphosis, A Hunger Artist, In the Penal Colony, and Other Stories)",
+      "author": "Franz Kafka",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1289573498l/9682386.jpg",
+      "link": "https://www.goodreads.com/review/show/5721340216?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Metamorphosis and Other Stories",
+      "author": "Franz Kafka",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647537488l/6094145._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721339681?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Billionaire’s Folly: The Untold Story of Ethereum and the Unicorn That Wasn’t",
+      "author": "Faisal Khan",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662178252l/62228436._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634735634?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Network State: How To Start a New Country",
+      "author": "Balaji S. Srinivasan",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660498969l/60643059._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634734773?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Talent: How to Identify Energizers, Creatives, and Winners Around the World",
+      "author": "Tyler Cowen",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644340681l/56269174.jpg",
+      "link": "https://www.goodreads.com/review/show/5634734474?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Eloquent Rage: A Black Feminist Discovers Her Superpower",
+      "author": "Brittney Cooper",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498834108l/33574165.jpg",
+      "link": "https://www.goodreads.com/review/show/5634733145?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Conscious Loving: The Journey to Co-Committment",
+      "author": "Gay Hendricks",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320539256l/235625.jpg",
+      "link": "https://www.goodreads.com/review/show/5634731927?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+      "author": "Morgan Housel",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581527774l/41881472._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634730504?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Breaking the Habit of Being Yourself: How to Lose Your Mind and Create a New One",
+      "author": "Joe Dispenza",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327784550l/12951631.jpg",
+      "link": "https://www.goodreads.com/review/show/5634731409?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Emergence: The Connected Lives of Ants, Brains, Cities, and Software",
+      "author": "Steven Johnson",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1294786433l/2296.jpg",
+      "link": "https://www.goodreads.com/review/show/5634734018?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "How the Internet Happened: From Netscape to the iPhone",
+      "author": "Brian  McCullough",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524256229l/38212134.jpg",
+      "link": "https://www.goodreads.com/review/show/5634735067?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers―Straight Talk on the Challenges of Entrepreneurship",
+      "author": "Ben Horowitz",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386609333l/18176747.jpg",
+      "link": "https://www.goodreads.com/review/show/5634735991?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "I Will Teach You to Be Rich: No Guilt. No Excuses. No BS. Just a 6-Week Program That Works",
+      "author": "Ramit Sethi",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552228430l/40591670._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634736440?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Working in Public: The Making and Maintenance of Open Source Software",
+      "author": "Nadia Eghbal",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592447742l/54140556._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634741007?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "What the Dormouse Said: How the Sixties Counterculture Shaped the Personal Computer Industry",
+      "author": "John Markoff",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442903066l/725789._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634742072?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Sex at Dawn: The Prehistoric Origins of Modern Sexuality",
+      "author": "Christopher  Ryan",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1291105594l/7640261.jpg",
+      "link": "https://www.goodreads.com/review/show/5634743045?utm_medium=api&utm_source=rss"
+    }
+  ]
+}
