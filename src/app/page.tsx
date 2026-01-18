@@ -21,7 +21,7 @@ export default function Home() {
               Hi! Welcome to my corner of the internet.
             </p>
             <p className="mb-3">
-              I&apos;m currently the Head of Business and Operations at{" "}
+              I&apos;m currently the Head of Business at{" "}
               <a href="https://www.getpara.com/" target="_blank" rel="noopener noreferrer">
                 Para
               </a>
