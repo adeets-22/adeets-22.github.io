@@ -22,28 +22,30 @@ export default function Bookshelf() {
   const recentlyRead = books["read"]?.slice(0, 12) || [];
 
   return (
-    <div className="space-y-6">
-      {currentlyReading.length > 0 && (
-        <div>
-          <h3 className="text-sm font-medium mb-3">Currently Reading</h3>
-          <div className="flex flex-wrap gap-3">
-            {currentlyReading.map((book, i) => (
-              <BookCover key={i} book={book} />
-            ))}
+    <div className="space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6">
+        {currentlyReading.length > 0 && (
+          <div>
+            <h3 className="text-sm font-medium mb-3">Currently Reading</h3>
+            <div className="flex flex-wrap gap-3">
+              {currentlyReading.map((book, i) => (
+                <BookCover key={i} book={book} />
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {recentlyRead.length > 0 && (
-        <div>
-          <h3 className="text-sm font-medium mb-3">Recently Read</h3>
-          <div className="flex flex-wrap gap-3">
-            {recentlyRead.map((book, i) => (
-              <BookCover key={i} book={book} />
-            ))}
+        {recentlyRead.length > 0 && (
+          <div>
+            <h3 className="text-sm font-medium mb-3">Recently Read</h3>
+            <div className="flex flex-wrap gap-3">
+              {recentlyRead.map((book, i) => (
+                <BookCover key={i} book={book} />
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
 
       <p className="text-xs text-[var(--accent)]">
         <a
