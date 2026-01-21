@@ -23,7 +23,7 @@ export default function Bookshelf() {
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
         {currentlyReading.length > 0 && (
           <div className="md:border-r md:border-[var(--border)] md:pr-6">
             <h3 className="text-sm font-medium mb-3">Currently Reading</h3>
@@ -36,7 +36,7 @@ export default function Bookshelf() {
         )}
 
         {recentlyRead.length > 0 && (
-          <div>
+          <div className="md:pl-6 mt-6 md:mt-0">
             <h3 className="text-sm font-medium mb-3">Recently Read</h3>
             <div className="flex flex-wrap gap-3">
               {recentlyRead.map((book, i) => (
