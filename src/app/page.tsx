@@ -12,7 +12,8 @@ export default function Home() {
             alt="Aditi"
             width={120}
             height={120}
-            className="grayscale-hover rounded"
+            priority
+            className="rounded grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300"
           />
           <div>
             <h1 className="text-4xl mb-2">Aditi</h1>
@@ -109,28 +110,28 @@ export default function Home() {
         <h2 className="text-2xl mb-4">Milestones I&apos;m Proud Of</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm">
           <a href="https://www.linkedin.com/feed/update/urn:li:activity:7389088815442845696/" target="_blank" rel="noopener noreferrer" className="block border border-[var(--border)] hover:bg-[#efe4d8] transition-colors">
-            <Image src="/images/event-table-2.png" alt="Para dinner event" width={200} height={150} className="w-full h-28 object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+            <Image src="/images/event-table-2.png" alt="Para dinner event" width={200} height={150} className="w-full h-28 object-cover grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300" />
             <div className="p-3">
               <span className="block text-2xl font-serif mb-1">10M+</span>
               <span className="text-[var(--accent)]">users powered by Para across 100+ products</span>
             </div>
           </a>
           <a href="https://www.linkedin.com/feed/update/urn:li:activity:7384616307683405824/" target="_blank" rel="noopener noreferrer" className="block border border-[var(--border)] hover:bg-[#efe4d8] transition-colors">
-            <Image src="/images/event-crowd.png" alt="Para community event" width={200} height={150} className="w-full h-28 object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+            <Image src="/images/event-crowd.png" alt="Para community event" width={200} height={150} className="w-full h-28 object-cover grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300" />
             <div className="p-3">
               <span className="block text-2xl font-serif mb-1">90M+</span>
               <span className="text-[var(--accent)]">transactions powered by Para and partners</span>
             </div>
           </a>
           <a href="https://www.linkedin.com/feed/update/urn:li:activity:7361585304232759296/" target="_blank" rel="noopener noreferrer" className="block border border-[var(--border)] hover:bg-[#efe4d8] transition-colors">
-            <Image src="/images/event-tote.png" alt="Go Beyond Onboarding" width={200} height={150} className="w-full h-28 object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+            <Image src="/images/event-tote.png" alt="Go Beyond Onboarding" width={200} height={150} className="w-full h-28 object-cover grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300" />
             <div className="p-3">
               <span className="block text-2xl font-serif mb-1">ENS, Metamask</span>
               <span className="text-[var(--accent)]">among Para&apos;s early partners</span>
             </div>
           </a>
           <a href="https://getpara.com/about" target="_blank" rel="noopener noreferrer" className="block border border-[var(--border)] hover:bg-[#efe4d8] transition-colors">
-            <Image src="/images/team.jpg" alt="Para team" width={200} height={150} className="w-full h-28 object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+            <Image src="/images/team.jpg" alt="Para team" width={200} height={150} className="w-full h-28 object-cover grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300" />
             <div className="p-3">
               <span className="block text-2xl font-serif mb-1"><u>Shaping</u></span>
               <span className="text-[var(--accent)]">a world-class team</span>

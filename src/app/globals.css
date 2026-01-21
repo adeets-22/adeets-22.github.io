@@ -47,11 +47,4 @@ a:hover {
   border-style: dashed;
 }
 
-img.grayscale-hover {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-
-img.grayscale-hover:hover {
-  filter: grayscale(0%);
-}
+/* Grayscale handled via Tailwind classes with responsive breakpoints */

@@ -78,7 +78,8 @@ function BookCover({ book }: { book: Book }) {
           alt={book.title}
           width={60}
           height={90}
-          className="w-[60px] h-[90px] object-cover rounded-sm shadow-sm grayscale hover:grayscale-0 transition-all duration-300"
+          className="w-[60px] h-[90px] object-cover rounded-sm shadow-sm grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300"
+          loading="lazy"
           onError={() => setImgError(true)}
         />
       ) : (
