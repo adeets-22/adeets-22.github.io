@@ -202,11 +202,11 @@ export default function Home() {
               <a href="https://reddit.com/r/coolguides" target="_blank" rel="noopener noreferrer">r/coolguides</a>
             </p>
             <div className="mt-4">
-              <span className="text-[var(--accent)] text-sm block mb-2">Currently vibing to:</span>
+              <span className="text-[var(--accent)] text-sm block mb-2">🎧 Hit play & vibe with me:</span>
               <iframe
                 src="https://open.spotify.com/embed/playlist/1IHNyScnBS5w065eRh3HBs?utm_source=generator&theme=0"
                 width="100%"
-                height="152"
+                height="80"
                 frameBorder="0"
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
