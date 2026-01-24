@@ -201,18 +201,6 @@ export default function Home() {
               <a href="https://reddit.com/r/randonauts" target="_blank" rel="noopener noreferrer">r/randonauts</a>,{" "}
               <a href="https://reddit.com/r/coolguides" target="_blank" rel="noopener noreferrer">r/coolguides</a>
             </p>
-            <div className="mt-4">
-              <span className="text-[var(--accent)] text-sm block mb-2">My productions:</span>
-              <iframe
-                width="100%"
-                height="166"
-                scrolling="no"
-                frameBorder="0"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/adeets_22&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"
-                className="rounded"
-              />
-            </div>
           </div>
         </section>
       </div>
