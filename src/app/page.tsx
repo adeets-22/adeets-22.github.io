@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Bookshelf from "@/components/Bookshelf";
 import WaveEmoji from "@/components/WaveEmoji";
+import SpinningVinyl from "@/components/SpinningVinyl";
 
 export default function Home() {
   return (
@@ -202,18 +203,7 @@ export default function Home() {
               <a href="https://reddit.com/r/coolguides" target="_blank" rel="noopener noreferrer">r/coolguides</a>
             </p>
             <div className="mt-4">
-              <span className="text-[var(--accent)] text-sm block mb-2">🎧 Hit play & vibe with me:</span>
-              <div className="overflow-hidden rounded-lg" style={{ height: '80px' }}>
-                <iframe
-                  src="https://open.spotify.com/embed/playlist/1IHNyScnBS5w065eRh3HBs?utm_source=generator&theme=0"
-                  width="100%"
-                  height="152"
-                  frameBorder="0"
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-                  style={{ marginTop: '-72px' }}
-                />
-              </div>
+              <SpinningVinyl />
             </div>
           </div>
         </section>
