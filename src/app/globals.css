@@ -48,3 +48,26 @@ a:hover {
 }
 
 /* Grayscale handled via Tailwind classes with responsive breakpoints */
+
+/* Wave emoji animation */
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(20deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(20deg); }
+  80% { transform: rotate(-5deg); }
+}
+
+@keyframes fade-out {
+  0%, 70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-wave {
+  animation: wave 1s ease-in-out infinite;
+  transform-origin: 70% 70%;
+}
+
+.animate-fade-out {
+  animation: fade-out 2.5s ease-out forwards;
+}

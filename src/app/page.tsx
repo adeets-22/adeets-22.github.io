@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Bookshelf from "@/components/Bookshelf";
+import WaveEmoji from "@/components/WaveEmoji";
 
 export default function Home() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-12">
+      <WaveEmoji />
       {/* Header / Bio */}
       <section className="mb-8">
         <div className="flex flex-col sm:flex-row gap-6 items-start">
