@@ -5,7 +5,6 @@ import WaveEmoji from "@/components/WaveEmoji";
 export default function Home() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-12">
-      <WaveEmoji />
       {/* Header / Bio */}
       <section className="mb-8">
         <div className="flex flex-col sm:flex-row gap-6 items-start">
@@ -18,7 +17,7 @@ export default function Home() {
             className="rounded grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300"
           />
           <div>
-            <h1 className="text-4xl mb-2">Aditi</h1>
+            <h1 className="text-4xl mb-2">Aditi <WaveEmoji /></h1>
             <p className="text-sm text-[var(--accent)] mb-3">(uh-dee-tee)</p>
             <p className="mb-3">
               Hi! Welcome to my corner of the internet.

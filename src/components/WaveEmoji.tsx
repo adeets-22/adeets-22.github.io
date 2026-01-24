@@ -13,8 +13,8 @@ export default function WaveEmoji() {
   if (!visible) return null;
 
   return (
-    <div className="fixed top-6 left-6 z-50 pointer-events-none animate-fade-out">
-      <span className="text-7xl animate-wave inline-block">👋</span>
-    </div>
+    <span className="inline-block ml-2 animate-fade-out">
+      <span className="text-4xl animate-wave inline-block">👋</span>
+    </span>
   );
 }
