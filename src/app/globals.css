@@ -72,12 +72,3 @@ a:hover {
   animation: fade-out 2.5s ease-out forwards;
 }
 
-@keyframes spin-slow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.group-hover\:animate-spin-slow:hover,
-.group:hover .group-hover\:animate-spin-slow {
-  animation: spin-slow 2s linear infinite;
-}
