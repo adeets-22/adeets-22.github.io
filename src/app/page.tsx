@@ -71,27 +71,19 @@ export default function Home() {
 
         <section className="bordered-section md:border-l-0">
           <h2 className="text-2xl mb-4">Writing</h2>
+          <div className="mb-4 pb-4 border-b border-[var(--border)]">
+            <p className="text-sm font-medium">Assembled Slowly</p>
+            <p className="text-xs text-[var(--accent)] mb-2">My newsletter on work, taste, and ambition</p>
+            <a
+              href="https://assembledslowly.substack.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs inline-block border border-[var(--border)] px-3 py-1 hover:bg-[var(--foreground)] hover:text-[var(--background)] transition-colors"
+            >
+              Subscribe
+            </a>
+          </div>
           <ul className="text-sm space-y-1.5">
-            <li>
-              <a href="https://blog.getpara.com/embedded-wallet-comparison/" target="_blank" rel="noopener noreferrer">
-                How to Compare Embedded Wallets
-              </a>
-            </li>
-            <li>
-              <a href="https://blog.getpara.com/what-is-mpc/" target="_blank" rel="noopener noreferrer">
-                What is MPC and Why Should I Care?
-              </a>
-            </li>
-            <li>
-              <a href="https://blog.celestia.org/ethereum-off-chain-data-availability-landscape/" target="_blank" rel="noopener noreferrer">
-                Ethereum Off-Chain Data Availability
-              </a>
-            </li>
-            <li>
-              <a href="https://blog.celestia.org/celestiums/" target="_blank" rel="noopener noreferrer">
-                Quantum Gravity Bridge
-              </a>
-            </li>
             <li>
               <a href="https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141" target="_blank" rel="noopener noreferrer">
                 Rollup Call Data Pricing Analysis
