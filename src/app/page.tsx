@@ -71,7 +71,7 @@ export default function Home() {
 
         <section className="bordered-section md:border-l-0">
           <h2 className="text-2xl mb-4">Writing</h2>
-          <div className="mb-4 pb-4 border-b border-[var(--border)]">
+          <div>
             <p className="text-sm font-medium">Assembled Slowly</p>
             <p className="text-xs text-[var(--accent)] mb-2">My newsletter on work, taste, and ambition</p>
             <a
@@ -83,18 +83,6 @@ export default function Home() {
               Subscribe
             </a>
           </div>
-          <ul className="text-sm space-y-1.5">
-            <li>
-              <a href="https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141" target="_blank" rel="noopener noreferrer">
-                Rollup Call Data Pricing Analysis
-              </a>
-            </li>
-            <li>
-              <a href="https://www.thejuggernaut.com/crypto-india" target="_blank" rel="noopener noreferrer">
-                India&apos;s Traditionalist Crypto Ban
-              </a>
-            </li>
-          </ul>
         </section>
       </div>
 
@@ -136,7 +124,7 @@ export default function Home() {
       {/* Speaking + Other Interests side by side */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-0">
         <section className="bordered-section border-t-0 dashed-border border-t-0">
-          <h2 className="text-2xl mb-4">Speaking</h2>
+          <h2 className="text-2xl mb-4">Speaking & Writing</h2>
           <ul className="text-sm space-y-1.5">
             <li>
               <a href="https://www.youtube.com/watch?v=xlVQHlMKYVY" target="_blank" rel="noopener noreferrer">
@@ -166,6 +154,16 @@ export default function Home() {
             <li>
               <a href="https://www.youtube.com/watch?v=NhHs1lPCzK0" target="_blank" rel="noopener noreferrer">
                 SXSW 2019: Universal Logins
+              </a>
+            </li>
+            <li>
+              <a href="https://forum.celestia.org/t/ethereum-rollup-call-data-pricing-analysis/141" target="_blank" rel="noopener noreferrer">
+                Rollup Call Data Pricing Analysis
+              </a>
+            </li>
+            <li>
+              <a href="https://www.thejuggernaut.com/crypto-india" target="_blank" rel="noopener noreferrer">
+                India&apos;s Traditionalist Crypto Ban
               </a>
             </li>
           </ul>
