@@ -78,7 +78,7 @@ export default function Home() {
               href="https://assembledslowly.substack.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs inline-block border border-[var(--border)] px-3 py-1 hover:bg-[#efe4d8] transition-colors"
+              className="text-xs inline-block border border-[var(--border)] px-3 py-1 hover:bg-[#D4896A] hover:text-white hover:border-[#D4896A] transition-colors"
             >
               Subscribe
             </a>
