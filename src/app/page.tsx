@@ -93,7 +93,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/feed/update/urn:li:activity:7389088815442845696/" target="_blank" rel="noopener noreferrer" className="block border border-[var(--border)] hover:bg-[#efe4d8] transition-colors">
             <Image src="/images/event-table-2.png" alt="Para dinner event" width={200} height={150} className="w-full h-28 object-cover grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300" />
             <div className="p-3">
-              <span className="block text-2xl font-serif mb-1">10M+</span>
+              <span className="block text-2xl font-serif mb-1">15M+</span>
               <span className="text-[var(--accent)]">users powered by Para across 100+ products</span>
             </div>
           </a>
@@ -187,7 +187,7 @@ export default function Home() {
             </p>
             <p>
               <span className="text-[var(--accent)]">Favorite subs:</span>{" "}
-              <a href="https://reddit.com/r/tooafraidtoask" target="_blank" rel="noopener noreferrer">r/tooafraidtoask</a>,{" "}
+              <a href="https://reddit.com/r/SFBitcheswithTaste" target="_blank" rel="noopener noreferrer">r/SFBitcheswithTaste</a>,{" "}
               <a href="https://reddit.com/r/randonauts" target="_blank" rel="noopener noreferrer">r/randonauts</a>,{" "}
               <a href="https://reddit.com/r/coolguides" target="_blank" rel="noopener noreferrer">r/coolguides</a>
             </p>
