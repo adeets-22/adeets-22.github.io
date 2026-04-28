@@ -1,12 +1,6 @@
 {
   "currently-reading": [
     {
-      "title": "The Art of Gathering: How We Meet and Why It Matters",
-      "author": "Priya Parker",
-      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513028173l/37424706.jpg",
-      "link": "https://www.goodreads.com/review/show/8551649336?utm_medium=api&utm_source=rss"
-    },
-    {
       "title": "AI Superpowers: China, Silicon Valley, and the New World Order",
       "author": "Kai-Fu Lee",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522379445l/39681794._SY475_.jpg",
@@ -20,6 +14,12 @@
     }
   ],
   "read": [
+    {
+      "title": "The Art of Gathering: How We Meet and Why It Matters",
+      "author": "Priya Parker",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513028173l/37424706.jpg",
+      "link": "https://www.goodreads.com/review/show/8551649336?utm_medium=api&utm_source=rss"
+    },
     {
       "title": "Hate the Game: Economic Cheat Codes for Life, Love, and Work",
       "author": "Daryl Fairweather",
