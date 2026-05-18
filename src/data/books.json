@@ -1,12 +1,6 @@
 {
   "currently-reading": [
     {
-      "title": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",
-      "author": "Brené Brown",
-      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337110319l/13588356.jpg",
-      "link": "https://www.goodreads.com/review/show/8574608011?utm_medium=api&utm_source=rss"
-    },
-    {
       "title": "The Tipping Point: How Little Things Can Make a Big Difference",
       "author": "Malcolm Gladwell",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328201287l/6001566.jpg",
@@ -26,6 +20,12 @@
     }
   ],
   "read": [
+    {
+      "title": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",
+      "author": "Brené Brown",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367609201l/16089813.jpg",
+      "link": "https://www.goodreads.com/review/show/8574608011?utm_medium=api&utm_source=rss"
+    },
     {
       "title": "The Art of Gathering: How We Meet and Why It Matters",
       "author": "Priya Parker",
