@@ -127,6 +127,11 @@ export default function Home() {
           <h2 className="text-2xl mb-4">Speaking & Writing</h2>
           <ul className="text-sm space-y-1.5">
             <li>
+              <a href="https://www.youtube.com/watch?v=aOVp4kQA1qs" target="_blank" rel="noopener noreferrer">
+                Around the Coin (July 2026)
+              </a>
+            </li>
+            <li>
               <a href="https://www.youtube.com/watch?v=xlVQHlMKYVY" target="_blank" rel="noopener noreferrer">
                 Stable Stories with Eco (2025)
               </a>
