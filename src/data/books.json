@@ -1,12 +1,6 @@
 {
   "currently-reading": [
     {
-      "title": "From Here to the Great Unknown",
-      "author": "Lisa Marie Presley",
-      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730396480l/204905217._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8865064243?utm_medium=api&utm_source=rss"
-    },
-    {
       "title": "The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture",
       "author": "Gabor Maté",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647801716l/58537332.jpg",
@@ -26,6 +20,12 @@
     }
   ],
   "read": [
+    {
+      "title": "From Here to the Great Unknown",
+      "author": "Lisa Marie Presley",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730396480l/204905217._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8865064243?utm_medium=api&utm_source=rss"
+    },
     {
       "title": "Already Free: Buddhism Meets Psychotherapy on the Path of Liberation",
       "author": "Bruce Tift",
