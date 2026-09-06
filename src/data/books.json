@@ -1,12 +1,6 @@
 {
   "currently-reading": [
     {
-      "title": "Brotopia: Breaking Up the Boys' Club of Silicon Valley",
-      "author": "Emily  Chang",
-      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621326555l/36288143.jpg",
-      "link": "https://www.goodreads.com/review/show/8667691372?utm_medium=api&utm_source=rss"
-    },
-    {
       "title": "The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture",
       "author": "Gabor Maté",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647801716l/58537332.jpg",
@@ -26,6 +20,12 @@
     }
   ],
   "read": [
+    {
+      "title": "Brotopia: Breaking Up the Boys' Club of Silicon Valley",
+      "author": "Emily  Chang",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621326555l/36288143.jpg",
+      "link": "https://www.goodreads.com/review/show/8667691372?utm_medium=api&utm_source=rss"
+    },
     {
       "title": "The Courage to Be Happy: Discover the Power of Positive Psychology and Choose Happiness Every Day",
       "author": "Ichiro Kishimi",
