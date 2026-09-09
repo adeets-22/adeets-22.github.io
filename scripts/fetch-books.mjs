@@ -10,6 +10,14 @@ const ALWAYS_READ_TITLES = new Set([
   "AI Superpowers: China, Silicon Valley, and the New World Order",
   "The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance",
 ]);
+const CURRENTLY_READING_OVERRIDES = [
+  {
+    title: "Big Magic: Creative Living Beyond Fear",
+    author: "Elizabeth Gilbert",
+    imageUrl: "https://covers.openlibrary.org/b/isbn/9781594634727-L.jpg",
+    link: "https://www.goodreads.com/book/show/24453007-big-magic",
+  },
+];
 
 async function fetchShelf(shelf) {
   const url = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER_ID}?shelf=${shelf}`;
@@ -28,7 +36,9 @@ async function fetchShelf(shelf) {
       // Helper to strip CDATA wrappers
       const stripCdata = (str) => str.replace(/<!\[CDATA\[|\]\]>/g, "").trim();
 
-      const title = itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/)?.[1] || "";
+      const title = stripCdata(
+        itemXml.match(/<title>([\s\S]*?)<\/title>/)?.[1] || ""
+      );
       const author = itemXml.match(/<author_name>(.*?)<\/author_name>/)?.[1] || "";
       let imageUrl = itemXml.match(/<book_large_image_url>(.*?)<\/book_large_image_url>/)?.[1]
         || itemXml.match(/<book_image_url>(.*?)<\/book_image_url>/)?.[1] || "";
@@ -65,6 +75,14 @@ async function main() {
     books[shelf] = await fetchShelf(shelf);
     console.log(`  Found ${books[shelf].length} books`);
   }
+
+  books["currently-reading"] = [
+    ...books["currently-reading"],
+    ...CURRENTLY_READING_OVERRIDES.filter(
+      (override) =>
+        !books["currently-reading"].some((book) => book.title === override.title)
+    ),
+  ];
 
   const manuallyRead = [
     ...new Map(

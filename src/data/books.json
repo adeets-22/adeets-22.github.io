@@ -1,5 +1,18 @@
 {
-  "currently-reading": [],
+  "currently-reading": [
+    {
+      "title": "Central Banking 101",
+      "author": "Joseph J. Wang",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611796718l/56863052._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8573820614?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Big Magic: Creative Living Beyond Fear",
+      "author": "Elizabeth Gilbert",
+      "imageUrl": "https://covers.openlibrary.org/b/isbn/9781594634727-L.jpg",
+      "link": "https://www.goodreads.com/book/show/24453007-big-magic"
+    }
+  ],
   "read": [
     {
       "title": "AI Superpowers: China, Silicon Valley, and the New World Order",
@@ -32,10 +45,22 @@
       "link": "https://www.goodreads.com/review/show/8494848037?utm_medium=api&utm_source=rss"
     },
     {
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528206996l/38746485.jpg",
+      "link": "https://www.goodreads.com/review/show/8884462195?utm_medium=api&utm_source=rss"
+    },
+    {
       "title": "From Here to the Great Unknown",
       "author": "Lisa Marie Presley",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730396480l/204905217._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/8865064243?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Women Who Run With the Wolves",
+      "author": "Clarissa Pinkola Estés",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662139742l/241823._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8805981109?utm_medium=api&utm_source=rss"
     },
     {
       "title": "Already Free: Buddhism Meets Psychotherapy on the Path of Liberation",
@@ -56,6 +81,12 @@
       "link": "https://www.goodreads.com/review/show/8574608011?utm_medium=api&utm_source=rss"
     },
     {
+      "title": "THE FISHER QUEEN’S DYNASTY",
+      "author": "Kavita Kané",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677903421l/74644676._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8573795047?utm_medium=api&utm_source=rss"
+    },
+    {
       "title": "The Art of Gathering: How We Meet and Why It Matters",
       "author": "Priya Parker",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513028173l/37424706.jpg",
@@ -72,6 +103,12 @@
       "author": "Mindy Pelz",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656515862l/61369435._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/7879386401?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Let Them Theory",
+      "author": "Mel Robbins",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735589383l/216351768._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8526879869?utm_medium=api&utm_source=rss"
     },
     {
       "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
@@ -104,6 +141,24 @@
       "link": "https://www.goodreads.com/review/show/7819027031?utm_medium=api&utm_source=rss"
     },
     {
+      "title": "This Is Your Mind on Plants",
+      "author": "Michael Pollan",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606111590l/56015023._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8128207778?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Palace of Illusions",
+      "author": "Chitra Banerjee Divakaruni",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328305747l/6260221.jpg",
+      "link": "https://www.goodreads.com/review/show/7878279756?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Forest of Enchantments",
+      "author": "Chitra Banerjee Divakaruni",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545301594l/43293099._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7865638845?utm_medium=api&utm_source=rss"
+    },
+    {
       "title": "Material World: The Six Raw Materials That Shape Modern Civilization",
       "author": "Ed Conway",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684817027l/112974899.jpg",
@@ -126,6 +181,12 @@
       "author": "Nadia Asparouhova",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743012556l/230403458._SX318_.jpg",
       "link": "https://www.goodreads.com/review/show/7783764672?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Elon Musk",
+      "author": "Walter Isaacson",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684447124l/125277346._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/7115155588?utm_medium=api&utm_source=rss"
     },
     {
       "title": "High Growth Handbook: Scaling Startups From 10 to 10,000 People",
@@ -230,10 +291,22 @@
       "link": "https://www.goodreads.com/review/show/5721328134?utm_medium=api&utm_source=rss"
     },
     {
+      "title": "The Art of Seduction",
+      "author": "Robert Greene",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563328408l/8525764._SX318_.jpg",
+      "link": "https://www.goodreads.com/review/show/5916953633?utm_medium=api&utm_source=rss"
+    },
+    {
       "title": "On Writing Well: The Classic Guide to Writing Nonfiction",
       "author": "William Zinsser",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352891165l/16149296.jpg",
       "link": "https://www.goodreads.com/review/show/5916953444?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "Mercury Retrograde",
+      "author": "Emily Segal",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611197013l/56769454._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5916953297?utm_medium=api&utm_source=rss"
     },
     {
       "title": "Going Infinite: The Rise and Fall of a New Tycoon",
@@ -278,6 +351,12 @@
       "link": "https://www.goodreads.com/review/show/5721344955?utm_medium=api&utm_source=rss"
     },
     {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654371463l/18144590._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5721345360?utm_medium=api&utm_source=rss"
+    },
+    {
       "title": "Good Boss, Bad Boss: How to Be the Best...And Learn from the Worst",
       "author": "Robert I. Sutton",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344270033l/7996747.jpg",
@@ -306,6 +385,12 @@
       "author": "Franz Kafka",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1749372176l/981550._SX318_.jpg",
       "link": "https://www.goodreads.com/review/show/5721340759?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "A Hunger Artist",
+      "author": "Franz Kafka",
+      "imageUrl": "https://s.gr-assets.com/assets/nophoto/book/111x148-675b3b2743c83e96e2540d2929d5f4d2.png",
+      "link": "https://www.goodreads.com/review/show/5721340496?utm_medium=api&utm_source=rss"
     },
     {
       "title": "Before the Law (The Metamorphosis, A Hunger Artist, In the Penal Colony, and Other Stories)",
@@ -386,6 +471,12 @@
       "link": "https://www.goodreads.com/review/show/5634736440?utm_medium=api&utm_source=rss"
     },
     {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629999184l/10127019._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/5634736787?utm_medium=api&utm_source=rss"
+    },
+    {
       "title": "Working in Public: The Making and Maintenance of Open Source Software",
       "author": "Nadia Eghbal",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592447742l/54140556._SX318_.jpg",
@@ -408,6 +499,12 @@
       "author": "Christopher  Ryan",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1291105594l/7640261.jpg",
       "link": "https://www.goodreads.com/review/show/5634743045?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "The Shift",
+      "author": "Tinx",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678326022l/91239480.jpg",
+      "link": "https://www.goodreads.com/review/show/5634739595?utm_medium=api&utm_source=rss"
     }
   ]
 }
