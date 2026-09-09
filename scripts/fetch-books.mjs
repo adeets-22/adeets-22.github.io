@@ -6,6 +6,10 @@ const SHELVES = ["currently-reading", "read"];
 const EXCLUDED_TITLES = new Set([
   "I'm So Effing Tired: A Proven Plan to Beat Burnout, Boost Your Energy, and Reclaim Your Life",
 ]);
+const ALWAYS_READ_TITLES = new Set([
+  "AI Superpowers: China, Silicon Valley, and the New World Order",
+  "The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance",
+]);
 
 async function fetchShelf(shelf) {
   const url = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER_ID}?shelf=${shelf}`;
@@ -61,6 +65,21 @@ async function main() {
     books[shelf] = await fetchShelf(shelf);
     console.log(`  Found ${books[shelf].length} books`);
   }
+
+  const manuallyRead = [
+    ...new Map(
+      [...books["currently-reading"], ...books.read]
+        .filter((book) => ALWAYS_READ_TITLES.has(book.title))
+        .map((book) => [book.title, book])
+    ).values(),
+  ];
+  books["currently-reading"] = books["currently-reading"].filter(
+    (book) => !ALWAYS_READ_TITLES.has(book.title)
+  );
+  books.read = [
+    ...manuallyRead,
+    ...books.read.filter((book) => !ALWAYS_READ_TITLES.has(book.title)),
+  ];
 
   const outputPath = new URL("../src/data/books.json", import.meta.url);
 

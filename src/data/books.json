@@ -1,5 +1,6 @@
 {
-  "currently-reading": [
+  "currently-reading": [],
+  "read": [
     {
       "title": "AI Superpowers: China, Silicon Valley, and the New World Order",
       "author": "Kai-Fu Lee",
@@ -11,9 +12,7 @@
       "author": "W. Timothy Gallwey",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750018611l/905._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/7307345641?utm_medium=api&utm_source=rss"
-    }
-  ],
-  "read": [
+    },
     {
       "title": "The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture",
       "author": "Gabor Maté",
