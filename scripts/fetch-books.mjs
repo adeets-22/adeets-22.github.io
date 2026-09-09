@@ -3,6 +3,9 @@
 
 const GOODREADS_USER_ID = "166979692";
 const SHELVES = ["currently-reading", "read"];
+const EXCLUDED_TITLES = new Set([
+  "I'm So Effing Tired: A Proven Plan to Beat Burnout, Boost Your Energy, and Reclaim Your Life",
+]);
 
 async function fetchShelf(shelf) {
   const url = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER_ID}?shelf=${shelf}`;
@@ -31,7 +34,7 @@ async function fetchShelf(shelf) {
       imageUrl = stripCdata(imageUrl);
       link = stripCdata(link);
 
-      if (title) {
+      if (title && !EXCLUDED_TITLES.has(title.trim())) {
         items.push({
           title: title.trim(),
           author: author.trim(),
