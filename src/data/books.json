@@ -1,12 +1,6 @@
 {
   "currently-reading": [
     {
-      "title": "This Is Me: A Reckoning",
-      "author": "Hayden Panettiere",
-      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1780597295l/246898078._SY475_.jpg",
-      "link": "https://www.goodreads.com/review/show/8973720068?utm_medium=api&utm_source=rss"
-    },
-    {
       "title": "Big Magic: Creative Living Beyond Fear",
       "author": "Elizabeth Gilbert",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451446242l/24453082.jpg",
@@ -31,6 +25,12 @@
       "author": "W. Timothy Gallwey",
       "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750018611l/905._SY475_.jpg",
       "link": "https://www.goodreads.com/review/show/7307345641?utm_medium=api&utm_source=rss"
+    },
+    {
+      "title": "This Is Me: A Reckoning",
+      "author": "Hayden Panettiere",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1780597295l/246898078._SY475_.jpg",
+      "link": "https://www.goodreads.com/review/show/8973720068?utm_medium=api&utm_source=rss"
     },
     {
       "title": "The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture",
