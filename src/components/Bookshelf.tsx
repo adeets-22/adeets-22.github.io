@@ -81,7 +81,7 @@ function BookCover({ book }: { book: Book }) {
             alt=""
             width={116}
             height={176}
-            className="max-h-full w-auto max-w-full rounded-r-sm object-contain object-bottom shadow-md transition-transform duration-200 motion-safe:group-hover:-translate-y-1"
+            className="max-h-full w-auto max-w-full rounded-r-sm object-contain object-bottom shadow-md grayscale transition-[filter,transform] duration-200 group-hover:grayscale-0 group-focus-visible:grayscale-0 motion-safe:group-hover:-translate-y-1"
             loading="lazy"
             onError={() => setImgError(true)}
           />
