@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const title = "Aditi Sriram | Para COO & Agentic Payments Operator";
-const description = "Aditi Sriram is COO and a founding team member at Para, focused on agentic payments, stablecoins, and wallet infrastructure. Explore her work and writing.";
+const title = "Aditi Sriram | COO at Para";
+const description = "Aditi Sriram is COO and a founding team member at Para since late 2022. Her work spans wallet infrastructure, stablecoins, and payments for AI agents.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.aditi.is"),
