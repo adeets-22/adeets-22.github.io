@@ -58,8 +58,8 @@ and cover has been processed. Raw CSV exports, notes, and unrelated shelves
 must not be committed. Keep exports outside the repository.
 
 Updates require a fresh export; the site does not claim a working automatic
-Goodreads sync. The page initially shows 12 read books, with a button to expand
-the full collection. Covers are grayscale until hover or keyboard focus.
+Goodreads sync. The page shows all current reads and a preview of six read books, then links
+to Goodreads for the full collection. Covers are grayscale until hover or keyboard focus.
 
 Current snapshot: exported from Goodreads on November 21, 2026; 5 currently
 reading and 86 displayed read books (87 in Goodreads, minus the existing

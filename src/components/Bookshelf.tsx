@@ -11,46 +11,32 @@ interface Book {
 }
 
 export default function Bookshelf() {
-  const [showAll, setShowAll] = useState(false);
   const currentlyReading = booksData["currently-reading"];
-  const read = booksData.read;
+  const recentlyRead = booksData.read.slice(0, 6);
 
   return (
     <div className="space-y-8">
       {currentlyReading.length > 0 && (
         <BookShelf title="Currently reading" books={currentlyReading} count={currentlyReading.length} />
       )}
-      {read.length > 0 && (
-        <div className="space-y-5">
-          <BookShelf title="Read" books={showAll ? read : read.slice(0, 12)} count={read.length} id="read-books" />
-          {read.length > 12 && (
-            <button
-              type="button"
-              aria-expanded={showAll}
-              aria-controls="read-books"
-              onClick={() => setShowAll(!showAll)}
-              className="cursor-pointer rounded-sm border border-[var(--border)] px-4 py-2 text-sm hover:bg-black/5 focus-visible:outline-2 focus-visible:outline-offset-4"
-            >
-              {showAll ? "Show fewer books" : `Show all ${read.length} read books`}
-            </button>
-          )}
-        </div>
+      {recentlyRead.length > 0 && (
+        <BookShelf title="Recently read" books={recentlyRead} id="read-books" />
       )}
       <p className="text-sm text-[var(--accent)]">
         <a href="https://www.goodreads.com/user/show/166979692-aditi" target="_blank" rel="noopener noreferrer">
-          View on Goodreads
+          View my full bookshelf on Goodreads
         </a>
       </p>
     </div>
   );
 }
 
-function BookShelf({ title, books, count, id }: { title: string; books: Book[]; count: number; id?: string }) {
+function BookShelf({ title, books, count, id }: { title: string; books: Book[]; count?: number; id?: string }) {
   return (
     <div>
       <div className="mb-5 flex items-baseline gap-3 border-b border-black/20 pb-2">
         <h3 className="text-xl">{title}</h3>
-        <span className="text-sm text-[var(--accent)]">{count} books</span>
+        {count !== undefined && <span className="text-sm text-[var(--accent)]">{count} books</span>}
       </div>
       <ul id={id} className="grid grid-cols-2 gap-x-5 gap-y-7 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
         {books.map((book) => (
