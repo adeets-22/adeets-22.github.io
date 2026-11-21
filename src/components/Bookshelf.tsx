@@ -58,21 +58,21 @@ function BookCover({ book }: { book: Book }) {
       title={`${book.title} by ${book.author}`}
       aria-label={`${book.title} by ${book.author}`}
     >
-      <div className="mb-3 flex h-40 items-end justify-start sm:h-44">
+      <div className="mb-3 flex h-32 items-end justify-start sm:h-36">
         {book.imageUrl && !imgError ? (
           // Goodreads supplies external cover images with varying aspect ratios.
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={book.imageUrl}
             alt=""
-            width={116}
-            height={176}
+            width={95}
+            height={144}
             className="max-h-full w-auto max-w-full rounded-r-sm object-contain object-bottom shadow-md grayscale transition-[filter,transform] duration-200 group-hover:grayscale-0 group-focus-visible:grayscale-0 motion-safe:group-hover:-translate-y-1"
             loading="lazy"
             onError={() => setImgError(true)}
           />
         ) : (
-          <div aria-hidden="true" className="flex h-full w-28 items-center justify-center rounded-r-sm border border-black/20 bg-[#e8ddd0] p-3 shadow-sm">
+          <div aria-hidden="true" className="flex h-full w-24 items-center justify-center rounded-r-sm border border-black/20 bg-[#e8ddd0] p-3 shadow-sm">
             <span className="line-clamp-6 text-center font-serif text-lg leading-snug">{book.title}</span>
           </div>
         )}
