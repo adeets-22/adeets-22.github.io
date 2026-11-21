@@ -35,24 +35,32 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Bookshelf sync
+## Bookshelf updates
 
-The daily `Update Goodreads books` workflow runs `scripts/fetch-books.mjs`.
-It follows RSS pages for the `currently-reading` and `read` shelves and keeps
-existing editorial exclusions and shelf overrides. The page initially shows
-12 read books; its expand button exposes the entire saved read shelf.
+Goodreads has retired RSS feeds. Public profiles still work, but
+full shelves require sign-in. The old daily RSS workflow has been removed.
 
-Run `node --test scripts/fetch-books.test.mjs` to check the sync safeguards and
-`npm run fetch-books` to refresh. HTTP errors, non-RSS responses, malformed
-records, repeated pagination, or an unexpectedly empty shelf fail the workflow
-without replacing `src/data/books.json`. Both shelves must succeed before the
-file is atomically replaced. A deliberately emptied shelf needs its saved data
-reviewed before the next refresh.
+To refresh the website, export your library from Goodreads **My Books →
+Import and export → Export Library**, then run:
 
-Recovery note: the saved collection was restored from commit `c97dc06`
-(October 27, 2026): 3 currently reading and 85 read books. On November 21,
-2026, both public RSS feeds returned HTTP 404 and the book-list page redirected
-to sign-in. This snapshot is not evidence of a successful current sync. Check
-that the Goodreads profile is publicly accessible and that user ID `166979692`
-is still correct, then rerun the workflow. Do not replace the saved collection
-with an empty result to make a failed sync appear successful.
+```sh
+npm run import-books -- /path/to/goodreads_library_export.csv
+npm run test:books
+npm run build
+```
+
+The importer reads only the currently-reading and read shelves, follows the
+export's actual shelf assignments, sorts read books by completion date (falling
+back to date added), and reuses existing covers or retrieves covers from public
+book pages. It preserves the existing explicitly excluded title. No book is
+manually forced into a shelf. It writes the snapshot only after every record
+and cover has been processed. Raw CSV exports, notes, and unrelated shelves
+must not be committed. Keep exports outside the repository.
+
+Updates require a fresh export; the site does not claim a working automatic
+Goodreads sync. The page shows all current reads and a preview of six read books, then links
+to Goodreads for the full collection. Covers are grayscale until hover or keyboard focus.
+
+Current snapshot: exported from Goodreads on November 21, 2026; 5 currently
+reading and 86 displayed read books (87 in Goodreads, minus the existing
+explicit exclusion).

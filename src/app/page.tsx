@@ -2,15 +2,53 @@ import Image from "next/image";
 import Bookshelf from "@/components/Bookshelf";
 import WaveEmoji from "@/components/WaveEmoji";
 
+const profile = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://www.aditi.is/#profile",
+  "url": "https://www.aditi.is/",
+  "name": "Aditi Sriram \u2014 COO at Para",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://www.aditi.is/#aditi",
+    "name": "Aditi Sriram",
+    "alternateName": "Aditi",
+    "url": "https://www.aditi.is/",
+    "image": "https://www.aditi.is/images/Headshot%201.jpg",
+    "jobTitle": "COO",
+    "description": "COO and founding team member at Para, focused on agentic payments, stablecoins, and wallet infrastructure.",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Para",
+      "url": "https://www.getpara.com/"
+    },
+    "knowsAbout": [
+      "Agentic payments",
+      "Stablecoins",
+      "Wallet infrastructure"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/aditi-sriram22/",
+      "https://twitter.com/adeets_22",
+      "https://github.com/adeets-22",
+      "https://blog.getpara.com/author/aditi/"
+    ]
+  }
+};
+
 export default function Home() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(profile).replace(/</g, "\\u003c") }}
+      />
       {/* Header / Bio */}
       <section className="mb-8">
         <div className="flex flex-col sm:flex-row gap-6 items-start">
           <Image
             src="/images/Headshot 1.jpg"
-            alt="Aditi"
+            alt="Aditi Sriram, COO at Para"
             width={120}
             height={120}
             priority
@@ -23,7 +61,7 @@ export default function Home() {
               Hi! Welcome to my corner of the internet.
             </p>
             <p className="mb-3">
-              I&apos;m COO at{" "}
+              I&apos;m Aditi Sriram, COO at{" "}
               <a href="https://www.getpara.com/" target="_blank" rel="noopener noreferrer">
                 Para
               </a>
@@ -85,6 +123,37 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      <section className="bordered-section border-t-0" aria-labelledby="agentic-payments">
+        <h2 id="agentic-payments" className="text-2xl mb-4">Agentic payments &amp; stablecoins</h2>
+        <div className="space-y-3">
+          <p>
+            I&apos;m an operator focused on agentic payments, stablecoins, and wallet infrastructure.
+            At Para, we build wallets for people, apps, and AI agents. Our{" "}
+            <a href="https://www.getpara.com/agents" target="_blank" rel="noopener noreferrer">agent wallet infrastructure</a>{" "}
+            lets agents transact within defined spending limits and permissions.
+          </p>
+          <p>
+            I write about what it takes to put this infrastructure to work, from guardrails
+            for agentic finance to stablecoin payments at the point of sale.
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a href="https://blog.getpara.com/compass-labs/" target="_blank" rel="noopener noreferrer">
+                Compass Labs: Shipping Agentic Finance with Guardrails
+              </a>
+            </li>
+            <li>
+              <a href="https://blog.getpara.com/decal-stablecoin-payments/" target="_blank" rel="noopener noreferrer">
+                How Decal Brought Stablecoin Payments to Merchants
+              </a>
+            </li>
+          </ul>
+          <p className="text-sm">
+            Building in this space? <a href="mailto:contact@aditi.is">Get in touch</a>.
+          </p>
+        </div>
+      </section>
 
       {/* Thoughts - full width */}
       <section className="bordered-section border-t-0">
@@ -184,7 +253,7 @@ export default function Home() {
               {" · "}
               Political economics
               {" · "}
-              Fashion & CPG
+              CPG
               {" · "}
               Jewelry collector
               {" · "}
