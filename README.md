@@ -64,3 +64,21 @@ to Goodreads for the full collection. Covers are grayscale until hover or keyboa
 Current snapshot: exported from Goodreads on November 21, 2026; 5 currently
 reading and 86 displayed read books (87 in Goodreads, minus the existing
 explicit exclusion).
+
+## Traffic analytics
+
+The root layout loads `@vercel/analytics/next` for page views and visitor/referrer
+statistics. **Web Analytics was enabled on the included Hobby plan on November
+21, 2026.** Deploy this change to start collecting visitor data. Collection begins after activation/deployment; it cannot backfill
+visits from before installation. Ad blockers and disabled JavaScript can cause
+undercounting. No contact-click or custom-event tracking is configured.
+
+AI/search crawlers are separate: Web Analytics excludes automated traffic.
+Use [Observability → AI Traffic](https://vercel.com/aditis-projects-1ca95d09/adeets-22-github-io/observability/ai-traffic)
+for AI bot requests and crawled pages. This dashboard already records requests
+without a browser script. For broader search-engine traffic, inspect
+**Observability → CDN Requests** and the available bot breakdowns. Filter to the production domain
+and document paths rather than counting images, scripts, and other assets as
+page visits. Bot requests indicate retrieval, not mentions or citations in AI
+answers. Platform retention and available breakdowns depend on the Vercel plan;
+no paid upgrade or bot-blocking rule is required by this code change.
