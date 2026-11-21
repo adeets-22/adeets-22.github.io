@@ -72,3 +72,8 @@ a:hover {
   animation: fade-out 2.5s ease-out forwards;
 }
 
+
+/* Book titles and authors stay readable without underlining the entire card. */
+a.book-card {
+  text-decoration: none;
+}

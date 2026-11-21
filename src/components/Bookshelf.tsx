@@ -10,87 +10,89 @@ interface Book {
   link: string;
 }
 
-interface BooksData {
-  "currently-reading": Book[];
-  read: Book[];
-}
-
-const books = booksData as BooksData;
-
 export default function Bookshelf() {
-  const currentlyReading = books["currently-reading"] || [];
-  const recentlyRead = books["read"]?.slice(0, 12) || [];
+  const [showAll, setShowAll] = useState(false);
+  const currentlyReading = booksData["currently-reading"];
+  const read = booksData.read;
 
   return (
-    <div className="space-y-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-        {currentlyReading.length > 0 && (
-          <div className="md:border-r md:border-[var(--border)] md:pr-6">
-            <h3 className="text-sm font-medium mb-3">Currently Reading</h3>
-            <div className="flex flex-wrap gap-3">
-              {currentlyReading.map((book, i) => (
-                <BookCover key={i} book={book} />
-              ))}
-            </div>
-          </div>
-        )}
-
-        {recentlyRead.length > 0 && (
-          <div className="md:pl-6 mt-6 md:mt-0">
-            <h3 className="text-sm font-medium mb-3">Recently Read</h3>
-            <div className="flex flex-wrap gap-3">
-              {recentlyRead.map((book, i) => (
-                <BookCover key={i} book={book} />
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-
-      <p className="text-xs text-[var(--accent)]">
-        <a
-          href="https://www.goodreads.com/user/show/166979692-aditi"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View all on Goodreads
+    <div className="space-y-8">
+      {currentlyReading.length > 0 && (
+        <BookShelf title="Currently reading" books={currentlyReading} count={currentlyReading.length} />
+      )}
+      {read.length > 0 && (
+        <div className="space-y-5">
+          <BookShelf title="Read" books={showAll ? read : read.slice(0, 12)} count={read.length} id="read-books" />
+          {read.length > 12 && (
+            <button
+              type="button"
+              aria-expanded={showAll}
+              aria-controls="read-books"
+              onClick={() => setShowAll(!showAll)}
+              className="cursor-pointer rounded-sm border border-[var(--border)] px-4 py-2 text-sm hover:bg-black/5 focus-visible:outline-2 focus-visible:outline-offset-4"
+            >
+              {showAll ? "Show fewer books" : `Show all ${read.length} read books`}
+            </button>
+          )}
+        </div>
+      )}
+      <p className="text-sm text-[var(--accent)]">
+        <a href="https://www.goodreads.com/user/show/166979692-aditi" target="_blank" rel="noopener noreferrer">
+          View on Goodreads
         </a>
       </p>
     </div>
   );
 }
 
+function BookShelf({ title, books, count, id }: { title: string; books: Book[]; count: number; id?: string }) {
+  return (
+    <div>
+      <div className="mb-5 flex items-baseline gap-3 border-b border-black/20 pb-2">
+        <h3 className="text-xl">{title}</h3>
+        <span className="text-sm text-[var(--accent)]">{count} books</span>
+      </div>
+      <ul id={id} className="grid grid-cols-2 gap-x-5 gap-y-7 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+        {books.map((book) => (
+          <li key={book.link} className="min-w-0"><BookCover book={book} /></li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 function BookCover({ book }: { book: Book }) {
   const [imgError, setImgError] = useState(false);
-
-  // Get short title for fallback (first few words)
-  const shortTitle = book.title.split(/[:\-–]/)[0].trim().slice(0, 30);
-
   return (
     <a
       href={book.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative block"
+      className="book-card group block rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4"
       title={`${book.title} by ${book.author}`}
+      aria-label={`${book.title} by ${book.author}`}
     >
-      {book.imageUrl && !imgError ? (
-        <img
-          src={book.imageUrl}
-          alt={book.title}
-          width={60}
-          height={90}
-          className="w-[60px] h-[90px] object-cover rounded-sm shadow-sm grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-300"
-          loading="lazy"
-          onError={() => setImgError(true)}
-        />
-      ) : (
-        <div className="w-[60px] h-[90px] bg-[#e8ddd0] border border-[var(--border)] rounded-sm flex items-center justify-center p-1">
-          <span className="text-[8px] leading-tight text-center text-[var(--foreground)]">
-            {shortTitle}
-          </span>
-        </div>
-      )}
+      <div className="mb-3 flex h-40 items-end justify-start sm:h-44">
+        {book.imageUrl && !imgError ? (
+          // Goodreads supplies external cover images with varying aspect ratios.
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={book.imageUrl}
+            alt=""
+            width={116}
+            height={176}
+            className="max-h-full w-auto max-w-full rounded-r-sm object-contain object-bottom shadow-md transition-transform duration-200 motion-safe:group-hover:-translate-y-1"
+            loading="lazy"
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div aria-hidden="true" className="flex h-full w-28 items-center justify-center rounded-r-sm border border-black/20 bg-[#e8ddd0] p-3 shadow-sm">
+            <span className="line-clamp-6 text-center font-serif text-lg leading-snug">{book.title}</span>
+          </div>
+        )}
+      </div>
+      <span className="block text-sm font-medium leading-snug group-hover:underline">{book.title.split(/:\s| — /)[0]}</span>
+      <span className="mt-1 block text-sm leading-snug text-[var(--accent)]">{book.author}</span>
     </a>
   );
 }
