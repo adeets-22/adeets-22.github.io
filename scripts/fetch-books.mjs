@@ -19,61 +19,66 @@ const CURRENTLY_READING_OVERRIDES = [
   },
 ];
 
-async function fetchShelf(shelf) {
-  const url = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER_ID}?shelf=${shelf}`;
+// Validate the entire refresh before replacing the last known good snapshot.
+import { XMLParser, XMLValidator } from "fast-xml-parser";
+import { pathToFileURL } from "node:url";
+import { readFile, writeFile, rename } from "node:fs/promises";
 
-  try {
-    const response = await fetch(url);
-    const xml = await response.text();
+const parser = new XMLParser({ ignoreAttributes: false, parseTagValue: false });
 
-    // Parse RSS XML (simple regex-based parsing for this use case)
-    const items = [];
-    const itemMatches = xml.matchAll(/<item>([\s\S]*?)<\/item>/g);
-
-    for (const match of itemMatches) {
-      const itemXml = match[1];
-
-      // Helper to strip CDATA wrappers
-      const stripCdata = (str) => str.replace(/<!\[CDATA\[|\]\]>/g, "").trim();
-
-      const title = stripCdata(
-        itemXml.match(/<title>([\s\S]*?)<\/title>/)?.[1] || ""
-      );
-      const author = itemXml.match(/<author_name>(.*?)<\/author_name>/)?.[1] || "";
-      let imageUrl = itemXml.match(/<book_large_image_url>(.*?)<\/book_large_image_url>/)?.[1]
-        || itemXml.match(/<book_image_url>(.*?)<\/book_image_url>/)?.[1] || "";
-      let link = itemXml.match(/<link>(.*?)<\/link>/)?.[1] || "";
-
-      // Strip CDATA from URLs
-      imageUrl = stripCdata(imageUrl);
-      link = stripCdata(link);
-
-      if (title && !EXCLUDED_TITLES.has(title.trim())) {
-        items.push({
-          title: title.trim(),
-          author: author.trim(),
-          imageUrl,
-          link,
-        });
-      }
+export function parseFeed(xml) {
+  if (XMLValidator.validate(xml) !== true) throw new Error("Invalid Goodreads XML");
+  const channel = parser.parse(xml)?.rss?.channel;
+  if (!channel) throw new Error("Goodreads returned a non-RSS response");
+  const items = channel.item ? (Array.isArray(channel.item) ? channel.item : [channel.item]) : [];
+  return items.map((item) => {
+    const text = (key) => String(item[key] ?? "").trim();
+    const title = text("title");
+    const author = text("author_name");
+    const link = text("link");
+    if (!title || !author || !/^https:\/\/(www\.)?goodreads\.com\//.test(link)) {
+      throw new Error("Incomplete Goodreads book record");
     }
-
-    return items;
-  } catch (error) {
-    console.error(`Error fetching shelf ${shelf}:`, error);
-    return [];
-  }
+    const imageUrl = text("book_large_image_url") || text("book_image_url");
+    return { title, author, imageUrl: /^https?:\/\//.test(imageUrl) ? imageUrl : "", link };
+  });
 }
 
-async function main() {
-  console.log("Fetching books from Goodreads...");
+export async function fetchShelf(shelf, fetchImpl = fetch) {
+  const books = new Map();
+  // Continue to an empty page even when Goodreads silently caps per_page.
+  for (let page = 1; page <= 100; page++) {
+    const url = new URL(`https://www.goodreads.com/review/list_rss/${GOODREADS_USER_ID}`);
+    url.search = new URLSearchParams({ shelf, per_page: "100", page: String(page), sort: "date_read", order: "d" });
+    let items;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const response = await fetchImpl(url, { signal: AbortSignal.timeout(30000) });
+        if (!response.ok) throw new Error(`Goodreads ${shelf} page ${page}: HTTP ${response.status}`);
+        items = parseFeed(await response.text());
+        break;
+      } catch (error) {
+        if (attempt === 3) throw error;
+      }
+    }
+    if (!items.length) return [...books.values()];
+    const previousSize = books.size;
+    for (const book of items) books.set(book.link.split("?")[0], book);
+    if (books.size === previousSize) throw new Error(`Goodreads repeated ${shelf} page ${page}; refusing a partial sync`);
+  }
+  throw new Error(`Goodreads ${shelf} exceeded pagination limit`);
+}
 
+export async function refreshBooks(outputPath, fetchImpl = fetch) {
+  const previous = JSON.parse(await readFile(outputPath, "utf8"));
   const books = {};
-
   for (const shelf of SHELVES) {
-    console.log(`Fetching ${shelf}...`);
-    books[shelf] = await fetchShelf(shelf);
-    console.log(`  Found ${books[shelf].length} books`);
+    const fetched = await fetchShelf(shelf, fetchImpl);
+    if (!fetched.length && previous[shelf]?.length) {
+      throw new Error(`Goodreads unexpectedly emptied ${shelf}; keeping saved books`);
+    }
+    books[shelf] = fetched.filter((book) => !EXCLUDED_TITLES.has(book.title));
+    console.log(`${shelf}: ${books[shelf].length} books`);
   }
 
   books["currently-reading"] = [
@@ -99,16 +104,15 @@ async function main() {
     ...books.read.filter((book) => !ALWAYS_READ_TITLES.has(book.title)),
   ];
 
-  const outputPath = new URL("../src/data/books.json", import.meta.url);
-
-  // Ensure data directory exists
-  const fs = await import("fs/promises");
-  const path = await import("path");
-  const dir = path.dirname(outputPath.pathname);
-  await fs.mkdir(dir, { recursive: true });
-
-  await fs.writeFile(outputPath, JSON.stringify(books, null, 2));
-  console.log(`\nSaved to ${outputPath.pathname}`);
+  const temporaryPath = new URL(`${outputPath.href}.tmp`);
+  await writeFile(temporaryPath, JSON.stringify(books, null, 2) + "\n");
+  await rename(temporaryPath, outputPath);
+  return books;
 }
 
-main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  refreshBooks(new URL("../src/data/books.json", import.meta.url)).catch((error) => {
+    console.error(`Books sync failed; saved collection was not changed. ${error.message}`);
+    process.exitCode = 1;
+  });
+}
