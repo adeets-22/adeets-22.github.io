@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const title = "Aditi Sriram | COO at Para";
@@ -38,6 +39,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased min-h-screen">
         {children}
+        <Analytics />
       </body>
     </html>
   );
