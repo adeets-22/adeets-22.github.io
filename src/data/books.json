@@ -1,12 +1,6 @@
 {
   "currently-reading": [
     {
-      "title": "Daddy Issues: A Memoir",
-      "author": "Sofia Franklyn",
-      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1771427048i/248180357.jpg",
-      "link": "https://www.goodreads.com/book/show/248180357"
-    },
-    {
       "title": "The Thinking Machine: Jensen Huang, Nvidia, and the World's Most Coveted Microchip",
       "author": "Stephen   Witt",
       "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1741381542i/211399783.jpg",
@@ -32,6 +26,12 @@
     }
   ],
   "read": [
+    {
+      "title": "Daddy Issues: A Memoir",
+      "author": "Sofia Franklyn",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1771427048i/248180357.jpg",
+      "link": "https://www.goodreads.com/book/show/248180357"
+    },
     {
       "title": "The Perfect Scent: A Year Inside the Perfume Industry in Paris and New York",
       "author": "Chandler Burr",
